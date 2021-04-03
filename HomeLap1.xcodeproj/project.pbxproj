@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8872C5AE261880DE00291A31 /* UpdateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8872C5AD261880DE00291A31 /* UpdateProfileViewController.swift */; };
 		887EC7FC26166D5F00AAEDF2 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887EC7FB26166D5F00AAEDF2 /* DetailsViewController.swift */; };
 		8888F3F126152309002DD8F7 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8888F3F026152309002DD8F7 /* LoginScreen.swift */; };
 		8888F3F426152326002DD8F7 /* SignUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8888F3F326152326002DD8F7 /* SignUpScreen.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8872C5AD261880DE00291A31 /* UpdateProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateProfileViewController.swift; sourceTree = "<group>"; };
 		887EC7FB26166D5F00AAEDF2 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		8888F3F026152309002DD8F7 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		8888F3F326152326002DD8F7 /* SignUpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreen.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				88C59FA426176FEA00B8BAB8 /* CartTableViewCell.xib */,
 				88C59FA8261772AB00B8BAB8 /* CartViewController.swift */,
 				88C59FAB261792AC00B8BAB8 /* ProfileViewController.swift */,
+				8872C5AD261880DE00291A31 /* UpdateProfileViewController.swift */,
 			);
 			path = HomeLap1;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 				88C59F9D2617598B00B8BAB8 /* MealTableViewCell.swift in Sources */,
 				88DCAD9526160C12009F38A0 /* ResTableViewCell.swift in Sources */,
 				88C59FAC261792AC00B8BAB8 /* ProfileViewController.swift in Sources */,
+				8872C5AE261880DE00291A31 /* UpdateProfileViewController.swift in Sources */,
 				88925C682614B7730054A0FF /* SceneDelegate.swift in Sources */,
 				88DCAD9926160FBE009F38A0 /* Models.swift in Sources */,
 			);

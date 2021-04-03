@@ -34,7 +34,6 @@ class MealsDetailsViewController: UIViewController {
             if(cartList[i].meals.id == meal.id){
                 cartList[i].count = cartList[i].count + 1
                 cartList[i].total = Int(cartList[i].meals.price)! * cartList[i].count
-                cartList[i] = cartList[i]
             }else if i == cartList.count-1{
                 cartList.append(Orders(id: String(ids) , meals: meal, total: Int(meal.price)!, count: 1))
             }

@@ -237,10 +237,10 @@
             </objects>
             <point key="canvasLocation" x="3102.898550724638" y="306.69642857142856"/>
         </scene>
-        <!--View Controller-->
+        <!--Update Profile View Controller-->
         <scene sceneID="hft-22-mog">
             <objects>
-                <viewController id="aB7-s3-Ypt" sceneMemberID="viewController">
+                <viewController id="aB7-s3-Ypt" customClass="UpdateProfileViewController" customModule="HomeLap1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uE4-w4-mD9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -314,6 +314,7 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="btnLogOut:" destination="zHf-hB-F9J" eventType="touchUpInside" id="97j-cn-cok"/>
+                                    <action selector="btnUpdate:" destination="aB7-s3-Ypt" eventType="touchUpInside" id="mA2-yq-GhX"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -347,6 +348,12 @@
                             <constraint firstItem="56b-8D-Bjc" firstAttribute="leading" secondItem="3g6-Ge-muz" secondAttribute="leading" id="zLs-xa-zGf"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="txtEmail" destination="56b-8D-Bjc" id="vbF-sa-D3t"/>
+                        <outlet property="txtName" destination="njz-wo-0lW" id="Nbf-69-mMj"/>
+                        <outlet property="txtPassword" destination="5mg-WL-Nzs" id="kmS-kE-6AS"/>
+                        <outlet property="txtPhone" destination="wT8-H9-Hxs" id="yAv-FW-eB6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tw6-fO-Rog" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
